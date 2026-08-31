@@ -1,0 +1,1 @@
+const menuBtn=document.getElementById('menuBtn'),nav=document.getElementById('nav');menuBtn.onclick=()=>nav.classList.toggle('show');function notify(t){const x=document.getElementById('toast');x.textContent=t;x.classList.add('show');setTimeout(()=>x.classList.remove('show'),2800)}
